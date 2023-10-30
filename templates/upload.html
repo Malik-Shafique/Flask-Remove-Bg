@@ -1,0 +1,11 @@
+<html>
+	<body>
+		<h1> Remove Background </h1>
+		<form action="http://localhost:5000/uploader" method = "POST" enctype = "multipart/form-data">
+			<input type="file" name="file"/>
+			<input type = "submit"/>
+		</form>
+		<img src="{{url_for('static',filename=fname)}}" width="200" height="200" alt = "output image">
+		<img src="{{url_for('static',filename=fname_output)}}" width="200" height="200" alt = "output image">
+	</body>
+</html>
