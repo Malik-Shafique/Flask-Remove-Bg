@@ -1,3 +1,14 @@
 /home/shafique_mcs/.local/lib/python3.9/site-packages/pixellib/semantic/deeplab.py
 
 directory in google cloud where deeplab.py is located
+
+
+handle large model size
+
+git rm --cached GIANT_FILE
+git commit --amend -CHEAD
+
+git push
+
+
+# moving model .h5 file out of repository to avoid large file problem
